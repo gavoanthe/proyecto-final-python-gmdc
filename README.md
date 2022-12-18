@@ -9,5 +9,5 @@ Crear un post con un titulo,subtitulo,autor,fecha y poder editarlo , eliminarlo 
 
 Utilizando plantillas de bootstrap y usando python con Django
 
-VIDEO
+# VIDEO explicativo
 https://www.youtube.com/watch?v=Wiax_lwksvQ
