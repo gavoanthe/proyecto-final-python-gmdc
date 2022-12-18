@@ -1,7 +1,6 @@
-#Proyecto final de coderhouse - Blog 
+# Proyecto final de coderhouse - Blog 
 
-Integrantes: Gabriel Mocchetti
-             Diego Castañeda
+## Integrantes: Gabriel Mocchetti, Diego Castañeda
 
 Este proyecto trata de un Blog donde se aplica un CRUD , Login y Register , otras funciones!!
 
