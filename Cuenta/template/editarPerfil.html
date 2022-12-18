@@ -1,0 +1,25 @@
+{% extends "AppCoder/template/padre.html" %}
+
+
+{% block page %}
+
+<h3>Formulario - Editar Perfil</h3>
+<h3> De {{ usuario }}</h3>
+
+{% endblock page %}
+
+
+{% block contenidoQueCambia %} 
+
+<form action="{% url 'EditarPerfil' %}" method="POST"> {% csrf_token %} 
+
+   <table>
+
+        {{ formulario.as_table}}
+
+   </table>
+
+   <button type="submit" class="btn  btn-dark"  value="Enviar">Guardar</button>
+
+</form>
+{% endblock contenidoQueCambia %}
